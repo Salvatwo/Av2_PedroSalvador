@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 01</title>
+</head>
+<body>
+    
+    <script>
+        function aluno()
+        let aluno = prompt('Digite o nome do aluno.');
+        let notaum = prompt('Digite sua primeira nota.');
+        let notadois = prompt('Digite sua segunda nota.');
+        let notatres = prompt('Digite sua terceira nota.');
+        let disciplina = prompt('Digite o nome da disciplina.');
+        let turma = prompt('Digite sua turma.');
+        
+        tres = Number(3)
+        
+        let media = ((Number(notaum)+Number(notadois)+Number(notatres))/Number(tres));
+
+        window.document.write(`Aluno: ${aluno} </br>`);
+        window.document.write(`Disciplina: ${disciplina} </br>`);
+        window.document.write(`Turma: ${turma} </br>`);
+        window.document.write(`Média Final: ${media} </br>`);
+        
+    </script>
+</body>
+</html>
